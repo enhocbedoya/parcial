@@ -2,5 +2,109 @@
 Enhoc Andres Bedoya Garcia*/
 
 *{
-    
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e0e5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.contenedor{
+    width: 420px;
+    padding: 40px;
+    border-radius: 20px;
+    background: #e0e5ec;
+
+    box-shadow: 
+        10px 10px 20px #a3b1c6,
+        -10px -10px 20px #ffffff;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitulo{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+
+.campo{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+input, select{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: #e0e5ec;
+
+    box-shadow: 
+        inset 6px 6px 10px #a3b1c6,
+        inset -6px -6px 10px #ffffff;
+}
+
+
+button{
+    width: 48%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 12px;
+    background: #e0e5ec;
+    cursor: pointer;
+    font-weight: bold;
+
+    box-shadow:
+        6px 6px 12px #a3b1c6,
+        -6px -6px 12px #ffffff;
+
+    transition: 0.2s;
+}
+
+button:hover{
+    transform: scale(1.03);
+}
+
+
+button:active{
+    box-shadow:
+        inset 6px 6px 10px #a3b1c6,
+        inset -6px -6px 10px #ffffff;
+}
+
+
+.resultado{
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background: #e0e5ec;
+
+    box-shadow:
+        inset 6px 6px 10px #a3b1c6,
+        inset -6px -6px 10px #ffffff;
+}
+
+
+.nivel{
+    margin-top: 10px;
+    font-weight: bold;
+}
 }
