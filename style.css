@@ -103,8 +103,8 @@ button:active{
 }
 
 
-.nivel{
-    margin-top: 10px;
-    font-weight: bold;
-}
+    .nivel{
+        margin-top: 10px;
+        font-weight: bold;
+    }
 }
