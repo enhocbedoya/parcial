@@ -101,5 +101,20 @@ document.getElementById("btnCalcular").addEventListener("click", function(){
 
     }
 
+
+    document.getElementById("btnLimpiar").addEventListener("click", function(){
+
+    document.getElementById("edad").value = "";
+    document.getElementById("presion").value = "";
+    document.getElementById("colesterol").value = "";
+    document.getElementById("fumador").value = "";
+
+    document.getElementById("textoResultado").textContent = "";
+    document.getElementById("nivelRiesgo").textContent = "";
+    document.getElementById("recomendaciones").innerHTML = "";
+
+    document.getElementById("resultado").style.backgroundColor = "";
+
 });
-    
+});
+
